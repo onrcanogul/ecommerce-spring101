@@ -1,7 +1,7 @@
 package com.firstproject.ecommerce.domain.dto;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.firstproject.ecommerce.domain.dto.base.BaseDto;
+import com.firstproject.ecommerce.core.base.BaseDto;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

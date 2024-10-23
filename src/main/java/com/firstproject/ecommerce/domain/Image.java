@@ -1,7 +1,7 @@
 package com.firstproject.ecommerce.domain;
 import jakarta.persistence.*;
 import lombok.*;
-import com.firstproject.ecommerce.domain.base.BaseEntity;
+import com.firstproject.ecommerce.core.base.BaseEntity;
 
 @Entity
 @Getter

@@ -1,6 +1,6 @@
 package com.firstproject.ecommerce.domain;
 
-import com.firstproject.ecommerce.domain.base.BaseEntity;
+import com.firstproject.ecommerce.core.base.BaseEntity;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;

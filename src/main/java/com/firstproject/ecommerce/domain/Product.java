@@ -1,7 +1,5 @@
 package com.firstproject.ecommerce.domain;
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
-import com.firstproject.ecommerce.domain.base.BaseEntity;
+import com.firstproject.ecommerce.core.base.BaseEntity;
 import jakarta.persistence.*;
 import lombok.*;
 import java.util.ArrayList;

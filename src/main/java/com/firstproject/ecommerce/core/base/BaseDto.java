@@ -1,4 +1,4 @@
-package com.firstproject.ecommerce.domain.dto.base;
+package com.firstproject.ecommerce.core.base;
 
 import lombok.Getter;
 import lombok.Setter;
