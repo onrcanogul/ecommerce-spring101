@@ -12,10 +12,11 @@ import java.util.List;
 @Entity
 @Setter
 @Getter
+@Table(name="baskets")
 @AllArgsConstructor
 @NoArgsConstructor
 public class Basket extends BaseEntity {
-    @OneToOne( cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+    @OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name="user_id")
     private User user;
 

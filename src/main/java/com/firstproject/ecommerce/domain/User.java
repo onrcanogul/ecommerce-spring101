@@ -18,4 +18,8 @@ public class User extends BaseEntity {
     private String userName;
     private String name;
     private String hashedPassword;
+
+    public User(long id){
+        this.setId(id);
+    }
 }

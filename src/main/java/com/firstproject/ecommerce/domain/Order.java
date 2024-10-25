@@ -11,12 +11,9 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
+@Table(name = "orders")
 @NoArgsConstructor
 @AllArgsConstructor
-@NamedQueries({
-        @NamedQuery(name = "Order.findAllWithBasketItems",
-                query = "SELECT o FROM Order o JOIN FETCH o.basket b JOIN FETCH b.basketItems bi JOIN FETCH bi.product")
-})
 public class Order extends BaseEntity {
     private OrderStatus status;
     @OneToOne(fetch = FetchType.EAGER)
